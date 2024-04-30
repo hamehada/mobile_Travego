@@ -62,7 +62,7 @@ class WelcomePage extends StatelessWidget {
                 children: [
                   TextButton(
                     onPressed: () => Navigator.of(context).push(
-                        MaterialPageRoute(builder: (context) => LoginPage())),
+                        MaterialPageRoute(builder: (context) => SigInPage())),
                     child: const Text('login'),
                     style: TextButton.styleFrom(
                         primary: Colors.white,

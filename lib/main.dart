@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:trevago/pages/home_page.dart';
+import 'package:trevago/pages/main_pages/profile_page.dart';
 import 'package:trevago/pages/welcome_page.dart';
 import 'pages/login_page.dart';
 
@@ -28,7 +29,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WelcomePage(),
+      home: HomePage(),
     );
   }
 }

@@ -30,8 +30,7 @@ class PostAppBar extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => HomePage()));
+              Navigator.pop(context);
             },
             child: Ink(
               padding: EdgeInsets.all(12),

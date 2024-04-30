@@ -39,10 +39,10 @@ class HomePage extends StatelessWidget {
                               itemBuilder: (BuildContext context, index) {
                                 return InkWell(
                                   onTap: () {
-                                    Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                            builder: (context) => PostPage()));
+                                    Navigator.push(context,
+                                        MaterialPageRoute(builder: (context) {
+                                      return PostPage();
+                                    }));
                                   },
                                   child: Container(
                                     width: 160,
